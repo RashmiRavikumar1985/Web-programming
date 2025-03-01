@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e7d7d7;
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDc5bWF1YmlqNHIzeHQ4N3Y0bDl1bWQzMDg5bTFyazA2OTVtODY1NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Nqi5KJIEGStWg/giphy.gif');
+    background-position: center;
+    background-size:cover;
+}
+
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f8f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(185, 18, 18, 0.1);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+label {
+    font-size: 14px;
+    margin: 5px 0;
+    display:ruby-base-container;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #1b1616;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+
