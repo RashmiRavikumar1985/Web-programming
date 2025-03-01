@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="rk.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form id="registrationForm" onsubmit="return validateForm()">
+            
+            <label for="firstName">First Name (min 6 letters, only alphabets):</label>
+            <input type="text" id="firstName" name="firstName">
+            <span class="error" id="firstNameError"></span>
+
+    
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName">
+            <span class="error" id="lastNameError"></span>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <span class="error" id="usernameError"></span>
+
+           
+            <label for="password">Password (min 6 characters):</label>
+            <input type="password" id="password" name="password">
+            <span class="error" id="passwordError"></span>
+
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <span class="error" id="emailError"></span>
+
+            <label for="mobile">Mobile Number (10 digits):</label>
+            <input type="tel" id="mobile" name="mobile" maxlength="10">
+            <span class="error" id="mobileError"></span>
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"></textarea>
+            <span class="error" id="addressError"></span>
+
+            <button type="button" onclick="validateForm(event)">Submit</button>
+        </form>
+    <div class ="container2">
+        <h2>Welcome!</h2>
+        <p>We are thrilled to have you join our community.This platform is designed to help students to learn and grow.</p>
+        <img src="https://media.tenor.com/ivSKVsP0SmEAAAAj/cat-tuxedo.gif" alt="welcome" class ="welcome-image"> 
+    </div>
+    </div>
+    
+    <script src="ram.js"></script>
+</body>
+</html>
+
